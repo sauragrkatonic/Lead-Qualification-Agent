@@ -1,4 +1,3 @@
-# ==================================================
 # Python
 __pycache__/
 *.py[cod]
@@ -8,3 +7,29 @@ __pycache__/
 venv/
 env/
 ENV/
+
+# Environment
+.env
+.env.local
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+
+# Logs
+*.log
