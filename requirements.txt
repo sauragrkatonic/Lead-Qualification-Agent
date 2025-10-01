@@ -1,0 +1,32 @@
+# Core Dependencies
+streamlit==1.39.0
+
+# CrewAI Framework
+crewai==0.86.0
+crewai-tools==0.17.0
+
+# LangChain and OpenAI
+langchain==0.3.7
+langchain-openai==0.2.8
+langchain-community==0.3.7
+openai==1.54.3
+
+# Database and Storage
+chromadb==0.5.20
+pysqlite3-binary==0.5.2.post1
+
+# Data Processing
+pydantic==2.10.2
+pydantic-settings==2.6.1
+
+# Optional: Web Scraping (if you want to add Firecrawl)
+# firecrawl-py==0.0.16
+
+# Optional: Additional Tools for CrewAI
+# duckduckgo-search==6.3.5
+# requests==2.32.3
+# beautifulsoup4==4.12.3
+
+# Utilities
+python-dotenv==1.0.1
+typing-extensions==4.12.2
